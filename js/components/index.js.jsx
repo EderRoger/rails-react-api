@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 import {render} from 'react-dom';
 
 class App extends React.Component {
