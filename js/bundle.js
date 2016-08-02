@@ -80,7 +80,7 @@
 	      return _react2.default.createElement(
 	        'p',
 	        null,
-	        ' Hello React! It\'w work'
+	        ' Hello React!'
 	      );
 	    }
 	  }]);
