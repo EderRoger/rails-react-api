@@ -1,8 +1,6 @@
 backend:
   build: .
-  environment:
-      RAILS_ENV: development
-  command: bundle exec rails s"
+  command: 'bash -c ''rails server -b 0.0.0.0'''
   volumes:
     - /app
   ports:
