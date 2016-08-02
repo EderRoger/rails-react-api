@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App using the new Rails 5 features --api
 
-Things you may want to cover:
+Using reactjs with flux configuration
 
 * Ruby version
+  To run need version 2.3.1 or later
 
-* System dependencies
+* Docker and Docker Compose
+   Latest version
 
-* Configuration
+* NodeJS
 
 * Database creation
-
-* Database initialization
+  rake db:migration
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+  $ rspec
 
 * Deployment instructions
-
-* ...
+  soon
