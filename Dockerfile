@@ -13,5 +13,6 @@ RUN gem install bundler
 RUN bundle install
 ADD . /app
 WORKDIR /app
+VOLUME /app/js
 
-CMD ["rails","server","-b","0.0.0.0"]
+#CMD ["rails","server","-b","0.0.0.0"]

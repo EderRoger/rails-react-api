@@ -1,15 +1,16 @@
-backend:
+server:
   build: .
-  command: 'bash -c ''rails server -b 0.0.0.0'''
+  command: bash -c "rails server -b 0.0.0.0"
   volumes:
     - /app
   ports:
     - "3000:3000"
 
 nginx:
-  restart: always
   build: ./docker/nginx/
   ports:
     - "80:80"
   links:
-    - backend
+    - server
+  volumes_from:
+    - server
