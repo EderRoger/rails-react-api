@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 var Store = function(config){
   this.items = []
   this.item = {}
@@ -44,3 +46,4 @@ var Store = function(config){
     }
   }
 }
+module.exports = Store

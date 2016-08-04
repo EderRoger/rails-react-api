@@ -1,5 +1,8 @@
+var Dispatcher = require('flux').Dispatcher;
+var peopleDispatcher = new Dispatcher()
+
 var PeopleActions = {
-  fetchGenres: function(){
-    dispatcher.dispatch({type: "fetch_people"})
+  fetchPeople: function(){
+    peopleDispatcher.dispatch({type: "fetch_people"})
   }
 }
