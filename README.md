@@ -19,4 +19,6 @@ Using reactjs with flux configuration
   $ rspec
 
 * Deployment instructions
-  soon
+
+** webpack: `$ ./node_modules/.bin/webpack -d`
+
